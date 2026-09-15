@@ -1,0 +1,58 @@
+name: Chatwik
+description: >-
+  Modern omnichannel customer communication platform (operated by ZeroFlux Technologies) combining live chat, social
+  media messaging, a multi-agent shared inbox, CRM workspace, and the WikAI autonomous AI support assistant. Currently
+  exposes an llms.txt agent-native discovery file and an embeddable JavaScript Widget SDK; a REST/webhook developer API
+  is advertised but not yet documented (targeted ~August 2026).
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/chatwik-modern-customer-communication-platform/refs/heads/main/apis.yml
+created: '2026-09-15'
+modified: '2026-09-15'
+specificationVersion: '0.21'
+tags:
+  - AI
+  - ai agent
+  - chatbot
+  - livechat
+  - helpdesk
+  - customer-support
+  - omnichannel
+  - shared-inbox
+  - CRM
+  - WhatsApp
+  - messaging
+apis:
+  - name: Chatwik
+    description: >-
+      Chatwik's publicly consumable surfaces: an llms.txt / llms-full.txt agent-native discovery file and product help
+      documentation. An embeddable JavaScript Widget SDK is loadable from app.chatwik.com (authenticated by a per-inbox
+      websiteToken). A REST/webhook developer API is advertised but not yet documented.
+    humanURL: https://www.chatwik.com
+    baseURL: https://www.chatwik.com
+    tags:
+      - AI
+      - ai agent
+      - chatbot
+      - livechat
+      - helpdesk
+      - customer-support
+      - omnichannel
+      - shared-inbox
+      - CRM
+      - WhatsApp
+      - messaging
+    properties:
+      - type: LLMsTxt
+        url: https://www.chatwik.com/llms.txt
+      - type: LLMsTxt
+        url: https://chatwik.com/llms-full.txt
+      - type: Documentation
+        url: https://docs.chatwik.com
+maintainers:
+  - FN: Chatwik (ZeroFlux Technologies)
+    url: https://www.chatwik.com
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 70
+  at: '2026-09-15T04:35:27.586Z'
