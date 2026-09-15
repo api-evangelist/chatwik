@@ -1,0 +1,50 @@
+generated: '2026-09-15'
+method: searched
+source: >-
+  WordPress.org plugin registry (api.wordpress.org), the app.chatwik.com CDN
+  widget loader, and the mobile app listings named in chatwik.com/llms-full.txt
+note: >-
+  Chatwik publishes no OpenAPI/SDK client library for a server API (the
+  developer API is advertised but undocumented). The first-party distributions
+  below are the embeddable Website Widget SDK (CDN), the official WordPress
+  plugin that installs it, and the native mobile apps.
+packages:
+  - name: chatwik-live-chat
+    kind: wordpress-plugin
+    official: true
+    registry: wordpress
+    url: https://wordpress.org/plugins/chatwik-live-chat/
+    version: 1.1.0
+    published: '2026-07-25'
+    note: >-
+      "Official Chatwik widget" plugin authored by the chatwik WordPress
+      profile; installs the embeddable widget via a website token.
+  - name: chatwik Website Widget SDK (sdk.js)
+    kind: javascript-widget-sdk
+    official: true
+    registry: cdn
+    url: https://app.chatwik.com/packs/js/sdk.js
+    version: null
+    published: null
+    note: >-
+      First-party embeddable JS SDK loaded via window.chatwikSDK.run({
+      websiteToken }). The loader URL is unpinned (floats to latest), so a
+      consumer cannot pin a version; the served bundle embeds an internal
+      version string (v3.0.5 observed 2026-09-15) but there is no registry or
+      versioned URL to depend on.
+  - name: Chatwik iOS app
+    kind: mobile-app
+    official: true
+    registry: app-store
+    url: https://apps.apple.com/us/app/chatwik/id6783345192
+    version: null
+    published: null
+    note: End-user agent app, not a developer client library.
+  - name: com.chatwik.app (Android)
+    kind: mobile-app
+    official: true
+    registry: play-store
+    url: https://play.google.com/store/apps/details?id=com.chatwik.app
+    version: null
+    published: null
+    note: End-user agent app, not a developer client library.

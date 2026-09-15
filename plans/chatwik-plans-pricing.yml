@@ -1,0 +1,52 @@
+generated: '2026-09-15'
+method: searched
+source: https://chatwik.com/pricing
+currency: USD
+billing_note: >-
+  Priced per agent. Paid tiers advertised at the yearly-billed rate (up to ~20%
+  savings vs monthly). No free trial advertised; no overage pricing published.
+plan_count: 3
+plans:
+  - name: Free
+    price: 0
+    currency: USD
+    period: month
+    unit: per agent
+    limits:
+      agents: 1
+      conversations_per_month: 500
+      channels: Live chat only
+      ai_credits: 0
+      history_retention_days: 30
+      trigger_messages: 3
+  - name: Startups
+    price: 9.99
+    price_yearly: 99
+    currency: USD
+    period: month
+    unit: per agent (billed yearly)
+    limits:
+      agents: unlimited
+      conversations_per_month: unlimited
+      ai_credits_per_month: 300
+      channels: All supported (Website, Facebook, WhatsApp, Instagram, Email, Telegram, LINE, SMS)
+      help_center: true
+      automation_rules: true
+  - name: Business
+    price: 19.99
+    price_yearly: 199
+    currency: USD
+    period: month
+    unit: per agent (billed yearly)
+    popular: true
+    limits:
+      agents: unlimited
+      conversations_per_month: unlimited
+      ai_credits_per_month: 1000
+      channels: All supported
+      help_center: true
+      automation_rules: true
+enterprise:
+  note: >-
+    No published enterprise tier; the integrations page offers "Solutions
+    Architect Support" contact for bespoke/enterprise needs.

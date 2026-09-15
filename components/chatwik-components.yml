@@ -1,0 +1,26 @@
+generated: '2026-09-15'
+method: searched
+source: >-
+  https://chatwik.com/llms-full.txt widget integration snippet and the live
+  loader at https://app.chatwik.com/packs/js/sdk.js
+note: >-
+  Chatwik's only public client-side surface is an embeddable website chat
+  widget. It is loaded from the app.chatwik.com CDN and initialized with a
+  per-inbox websiteToken; it is not a documented server API.
+families:
+  - name: Website Chat Widget
+    kind: embeddable-widget
+    loader: https://app.chatwik.com/packs/js/sdk.js
+    init: window.chatwikSDK.run({ websiteToken, baseUrl })
+    auth: websiteToken (per-inbox public token)
+    options:
+      - position (left | right)
+      - type (expanded_bubble | ...)
+      - launcherTitle
+    surfaces:
+      - bubble view
+      - launcher
+      - expanded view
+    note: >-
+      Also distributed as the chatwik-live-chat WordPress plugin (see
+      packages/chatwik-packages.yml).

@@ -1,0 +1,60 @@
+generated: '2026-09-15'
+method: probed
+source: live probes of /.well-known/* across every host this record knows
+note: >-
+  security.txt is served (200) on both chatwik.com and www.chatwik.com. Its
+  Policy points to https://chatwik.com/security, which itself returns 404 (a
+  dead link inside the provider's own security.txt). No openid-configuration,
+  oauth-authorization-server, oauth-protected-resource, api-catalog,
+  ai-plugin.json or agent-card were found on any host.
+hosts:
+  - host: chatwik.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        file: chatwik-security.txt
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+  - host: www.chatwik.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        file: chatwik-security.txt
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+  - host: app.chatwik.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+  - host: docs.chatwik.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404

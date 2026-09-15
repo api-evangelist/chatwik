@@ -1,9 +1,12 @@
+aid: chatwik
 name: Chatwik
 description: >-
   Modern omnichannel customer communication platform (operated by ZeroFlux Technologies) combining live chat, social
-  media messaging, a multi-agent shared inbox, CRM workspace, and the WikAI autonomous AI support assistant. Currently
-  exposes an llms.txt agent-native discovery file and an embeddable JavaScript Widget SDK; a REST/webhook developer API
-  is advertised but not yet documented (targeted ~August 2026).
+  media messaging, a multi-agent shared inbox, CRM workspace, and the WikAI autonomous AI support assistant. Built on a
+  Chatwoot-derived application stack, it consolidates Website chat, WhatsApp, Facebook, Instagram, Telegram, SMS, Voice,
+  Email, LINE, TikTok and X into a single shared inbox. Currently exposes an llms.txt / llms-full.txt agent-native
+  discovery file, a served security.txt, and an embeddable JavaScript Widget SDK; a REST/webhook developer API is
+  advertised on the integrations page but is not yet documented (the /docs API Reference link 404s).
 url: >-
   https://raw.githubusercontent.com/api-evangelist/chatwik-modern-customer-communication-platform/refs/heads/main/apis.yml
 created: '2026-09-15'
@@ -45,9 +48,21 @@ apis:
       - type: LLMsTxt
         url: https://www.chatwik.com/llms.txt
       - type: LLMsTxt
+        url: llms/chatwik-llms.txt
+      - type: LLMsTxt
         url: https://chatwik.com/llms-full.txt
       - type: Documentation
         url: https://docs.chatwik.com
+      - type: Components
+        url: components/chatwik-components.yml
+      - type: SDKs
+        url: packages/chatwik-packages.yml
+      - type: Packages
+        url: packages/chatwik-packages.yml
+      - type: Plans
+        url: plans/chatwik-plans-pricing.yml
+      - type: RateLimits
+        url: rate-limits/chatwik-rate-limits.yml
 maintainers:
   - FN: Chatwik (ZeroFlux Technologies)
     url: https://www.chatwik.com
@@ -56,3 +71,46 @@ generated:
   model: claude-opus-4-8
   confidence: 70
   at: '2026-09-15T04:35:27.586Z'
+common:
+- type: Website
+  url: https://www.chatwik.com
+- type: VulnerabilityDisclosure
+  url: security/chatwik-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/chatwik-domain-security.yml
+- type: Security
+  url: security/chatwik-vulnerability-disclosure.yml
+- type: WellKnown
+  url: well-known/chatwik-well-known.yml
+- type: SecurityTxt
+  url: well-known/chatwik-security.txt
+- type: Pricing
+  url: https://chatwik.com/pricing
+- type: Integrations
+  url: https://chatwik.com/integrations
+- type: HelpCenter
+  url: https://chatwik.com/help-center
+- type: TermsOfService
+  url: https://chatwik.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://chatwik.com/privacy-policy
+x-enrichment:
+  date: '2026-09-15'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v3
+x-coverage:
+  state: covered
+  reason: agent-native-surface-present
+  detail: >-
+    Chatwik publishes a real llms.txt/llms-full.txt, a served security.txt, a pricing page and an embeddable JS Widget
+    SDK, but no machine-readable API contract; the advertised developer-API reference at /docs returns 404 and the
+    underlying app is a Chatwoot-derived stack whose REST surface Chatwik does not document as its own.
+  evidence:
+    - url: https://www.chatwik.com/llms.txt
+      status: 200
+    - url: https://chatwik.com/.well-known/security.txt
+      status: 200
+    - url: https://www.chatwik.com/docs
+      status: 404
+  checked: '2026-09-15'

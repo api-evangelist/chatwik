@@ -1,0 +1,28 @@
+# Chatwik
+
+> Chatwik is the modern customer communication platform. Connect all your support channels, collaborate with team members, and drive business growth through unified conversations and AI automation.
+
+## Core Products & Platforms
+- [Shared Inbox](https://chatwik.com/products/shared-inbox): Centralized omni-channel inbox for managing customer conversations across email, live chat, social media, and messaging apps.
+- [CRM Workspace](https://chatwik.com/products/crm): Integrated customer relationship management system with conversation histories, contacts, custom attributes, and automated tagging.
+- [WikAI Assistant](https://chatwik.com/products/wikai): Autonomous AI support agent trained on your knowledge base to resolve customer queries instantly 24/7.
+
+## Supported Communication Channels
+- [Website Live Chat](https://chatwik.com/features/website): Customizable website widget with embeddable JS SDK.
+- [WhatsApp Inbox](https://chatwik.com/features/whatsapp): Official WhatsApp Business API integration for multi-agent support.
+- [Facebook Messenger](https://chatwik.com/features/facebook): Direct message routing and automation for Facebook Pages.
+- [Instagram DMs](https://chatwik.com/features/instagram): Unified messaging for Instagram Direct Messages.
+- [Telegram Bot](https://chatwik.com/features/telegram): Automated & human-assisted support via Telegram bots.
+- [SMS Messaging](https://chatwik.com/features/sms): Two-way customer texting and notification dispatch.
+- [Voice Support](https://chatwik.com/features/voice): Cloud phone system and AI voice call routing.
+- [Email Desk](https://chatwik.com/features/email): Turn support emails into actionable collaborative tickets.
+- [Line Channel](https://chatwik.com/features/line): Multi-agent support for Line Official Accounts.
+- [TikTok & X (Twitter)](https://chatwik.com/features/tiktok): Social support integration for modern brands.
+
+## Pricing & Deployment
+- [Pricing Plans](https://chatwik.com/pricing): Transparent tiers for startups, growing teams, and enterprises.
+- [Integrations](https://chatwik.com/integrations): Native connectors for WordPress, Shopify, mobile apps, and custom webhooks.
+- [Help Center & Docs](https://chatwik.com/help-center): Guides, API specifications, and troubleshooting documentation.
+
+## Full Reference Context
+- [llms-full.txt](https://chatwik.com/llms-full.txt): Complete detailed text context, widget integration snippet, and comprehensive API/channel breakdown for LLM indexing.

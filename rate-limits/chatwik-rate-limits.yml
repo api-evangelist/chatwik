@@ -1,0 +1,12 @@
+generated: '2026-09-15'
+method: searched
+source: >-
+  https://chatwik.com/integrations and https://docs.chatwik.com (Next.js docs
+  host); the advertised API Reference at /docs returns 404.
+limit_count: 0
+note: >-
+  Chatwik advertises webhooks, a developer API, and a JS SDK but publishes no
+  API reference (the /docs API Reference link 404s) and therefore documents no
+  rate limits, response headers (X-RateLimit-*, Retry-After) or exhaustion
+  status codes. Honest zero: nothing published to record.
+limits: []
