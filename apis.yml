@@ -13,6 +13,18 @@ created: '2026-09-15'
 modified: '2026-09-15'
 specificationVersion: '0.21'
 tags:
+  - Artificial Intelligence
+  - AI Agent
+  - Chatbots
+  - Live Chat
+  - Help Desk
+  - Customer-Support
+  - Omnichannel
+  - Shared Inbox
+  - CRM
+  - WhatsApp
+  - Messaging
+tags_raw:
   - AI
   - ai agent
   - chatbot
@@ -33,6 +45,18 @@ apis:
     humanURL: https://www.chatwik.com
     baseURL: https://www.chatwik.com
     tags:
+      - Artificial Intelligence
+      - AI Agent
+      - Chatbots
+      - Live Chat
+      - Help Desk
+      - Customer-Support
+      - Omnichannel
+      - Shared Inbox
+      - CRM
+      - WhatsApp
+      - Messaging
+    tags_raw:
       - AI
       - ai agent
       - chatbot
