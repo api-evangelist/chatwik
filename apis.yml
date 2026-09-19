@@ -14,7 +14,7 @@ modified: '2026-09-15'
 specificationVersion: '0.21'
 tags:
   - Artificial Intelligence
-  - AI Agent
+  - AI Agents
   - Chatbots
   - Live Chat
   - Help Desk
@@ -46,7 +46,7 @@ apis:
     baseURL: https://www.chatwik.com
     tags:
       - Artificial Intelligence
-      - AI Agent
+      - AI Agents
       - Chatbots
       - Live Chat
       - Help Desk
