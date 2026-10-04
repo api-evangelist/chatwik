@@ -18,7 +18,7 @@ tags:
   - Chatbots
   - Live Chat
   - Help Desk
-  - Customer-Support
+  - Customer Support
   - Omnichannel
   - Shared Inbox
   - CRM
@@ -36,6 +36,7 @@ tags_raw:
   - CRM
   - WhatsApp
   - messaging
+  - Customer-Support
 apis:
   - name: Chatwik
     description: >-
@@ -43,14 +44,13 @@ apis:
       documentation. An embeddable JavaScript Widget SDK is loadable from app.chatwik.com (authenticated by a per-inbox
       websiteToken). A REST/webhook developer API is advertised but not yet documented.
     humanURL: https://www.chatwik.com
-    baseURL: https://www.chatwik.com
     tags:
       - Artificial Intelligence
       - AI Agents
       - Chatbots
       - Live Chat
       - Help Desk
-      - Customer-Support
+      - Customer Support
       - Omnichannel
       - Shared Inbox
       - CRM
@@ -68,6 +68,7 @@ apis:
       - CRM
       - WhatsApp
       - messaging
+      - Customer-Support
     properties:
       - type: LLMsTxt
         url: https://www.chatwik.com/llms.txt
