@@ -97,6 +97,10 @@ generated:
   confidence: 70
   at: '2026-09-15T04:35:27.586Z'
 common:
+- type: Plans
+  url: plans/chatwik-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/chatwik-rate-limits.yml
 - type: Website
   url: https://www.chatwik.com
 - type: VulnerabilityDisclosure
