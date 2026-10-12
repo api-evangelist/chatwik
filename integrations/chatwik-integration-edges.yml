@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/chatwik/integrations
+- https://n8n.io/integrations/chatwik/
+- https://composio.dev/toolkits/chatwik
+- https://monid.ai/tools/chatwik
+checked:
+- https://composio.dev/toolkits/chatwik
+- https://monid.ai/tools/chatwik
+- https://n8n.io/integrations/chatwik/
+- https://zapier.com/apps/chatwik/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
