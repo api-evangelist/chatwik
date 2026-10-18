@@ -18,7 +18,7 @@ tags:
   - Chatbots
   - Live Chat
   - Help Desk
-  - Customer Support
+  - Customer Service
   - Omnichannel
   - Shared Inbox
   - CRM
@@ -37,6 +37,7 @@ tags_raw:
   - WhatsApp
   - messaging
   - Customer-Support
+  - Customer Support
 apis:
   - name: Chatwik
     description: >-
@@ -50,7 +51,7 @@ apis:
       - Chatbots
       - Live Chat
       - Help Desk
-      - Customer Support
+      - Customer Service
       - Omnichannel
       - Shared Inbox
       - CRM
@@ -69,6 +70,7 @@ apis:
       - WhatsApp
       - messaging
       - Customer-Support
+      - Customer Support
     properties:
       - type: LLMsTxt
         url: https://www.chatwik.com/llms.txt
