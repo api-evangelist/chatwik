@@ -1,5 +1,4 @@
-# chatwik-modern-customer-communication-platform
-Modern omnichannel customer communication platform (operated by ZeroFlux Technologies) combining live chat, social media messaging, a multi-agent shared inbox, CRM workspace, and the WikAI autonomous AI support assistant. Currently exposes an llms.txt agent-native discovery file and an embeddable Ja
+# Chatwik
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,3 +63,100 @@ Modern omnichannel customer communication platform (operated by ZeroFlux Technol
 >
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
+
+Modern omnichannel customer communication platform (operated by ZeroFlux Technologies) combining live chat, social media messaging, a multi-agent shared inbox, CRM workspace, and the WikAI autonomous AI support assistant. Built on a Chatwoot-derived application stack, it consolidates Website chat, WhatsApp, Facebook, Instagram, Telegram, SMS, Voice, Email, LINE, TikTok and X into a single shared inbox. Currently exposes an llms.txt / llms-full.txt agent-native discovery file, a served security.txt, and an embeddable JavaScript Widget SDK; a REST/webhook developer API is advertised on the integrations page but is not yet documented (the /docs API Reference link 404s).
+
+**Areas:** Artificial Intelligence · AI Agents · Chatbots · Live Chat · Help Desk · Customer Service · Omnichannel · Shared Inbox · CRM · WhatsApp · Messaging
+
+## Chatwik on APIs.io
+
+Everything profiled for Chatwik is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/chatwik/](https://apis.io/providers/chatwik/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Chatwik](https://apis.io/apis/chatwik/chatwik/) — Chatwik's publicly consumable surfaces: an llms.txt / llms-full.txt agent-native discovery file and product help documentation. An embeddable JavaScript…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Chatwik Domain Security](https://apis.io/security/chatwik/chatwik-domain-security/)
+- [Chatwik Vulnerability Disclosure](https://apis.io/security/chatwik/chatwik-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Chatwik Plans Pricing](https://apis.io/plans/chatwik/chatwik-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Chatwik Rate Limits](https://apis.io/rate-limits/chatwik/chatwik-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.chatwik.com)
+- [Pricing](https://chatwik.com/pricing)
+- [Terms of service](https://chatwik.com/terms-of-service)
+- [Privacy policy](https://chatwik.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 23.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 63.2 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/chatwik/](https://apis.io/providers/chatwik/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Chatwik: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/chatwik/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
